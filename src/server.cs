@@ -7,6 +7,12 @@ class Server
         System.Console.WriteLine("Server started.");
     }
 
+    public void Update()
+    {
+        // Update server state
+        System.Console.WriteLine("Server updated.");
+    }
+
     public void Stop()
     {
         // Stop the server
